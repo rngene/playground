@@ -6,7 +6,7 @@ test.describe('custom link', () => {
 
         await page.getByTestId("customlink1").click();
 
-        await page.waitForURL("https://github.com");
+        await page.waitForURL("**/rngene**");
 
     });
 
@@ -15,7 +15,7 @@ test.describe('custom link', () => {
 
         await page.getByTestId("customlink2").click();
 
-        await page.waitForURL("https://github.com");
+        await page.waitForURL("**/rngene**");
 
     });    
 
